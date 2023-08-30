@@ -26,4 +26,4 @@ Execute below commands in PowerShell terminal.
   ```
 
   ## logCleanup.ps1 script output
-  ![]()
+  
