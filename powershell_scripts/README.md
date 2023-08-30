@@ -24,6 +24,3 @@ Execute below commands in PowerShell terminal.
   ```
   Set-AWSCredential -AccessKey IAM-USER-ACCESS-KEY -SecretKey IAM-USER-SECRET-KEY
   ```
-
-  ## logCleanup.ps1 script output
-  
