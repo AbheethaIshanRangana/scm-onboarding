@@ -37,7 +37,6 @@ def lambda_handler(event, context):
     for item in report_data:
         report_csv += f'{item[0]}, {item[1]}, {item[2]}, {item[3]}\n'
 
-    # Optional: Send the report via SNS
     topic_arn = 'arn:aws:sns:us-east-1:XXXXXXXXXXXXX:ec2-sg'
 
     sns_client.publish(
